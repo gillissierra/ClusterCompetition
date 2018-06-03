@@ -1,0 +1,15 @@
+INSTALL
+In Anoconda Prompt:
+conda install -c r rpy2
+
+Run the install script GEOqueryInstall.py
+
+The necessary R packages will be downloaded to your R folder
+by the command biocInstaller.biocLite("GEOquery") on line 33 which
+will then throw an error.
+Copy the GEOquery folder from C:\Program Files\R\<R version>\library
+and paste it into C:\Users\<User name>\Anaconda3\Lib\R\library
+This allows the R under Anaconda to have the required packages.
+If using Spyder, restart it.
+
+The clusterCompetition.py can now be run.

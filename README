@@ -1,0 +1,17 @@
+ABOUT
+clusterCompetition.py compares two clustering algorithms, K-Means and 
+Agglomerative Clustering with Ward Linkage.
+The data that is clustered are expression values of the gene INPP4B 
+collected from studies of Acute Myeloid Leukemia. The data is retrieved 
+from the Gene Expression Omnibus database via the R wrapper, RPy2.
+
+AUTHORS
+Leslie Calimlim, Trevor Lacombe, Sierra Gillis
+as part of BIF724 
+April 2018
+
+TODO
+Add more methods to have data set grabbing functions to get rid of 
+repetition in code. More knowledge of data structures and RPy2 robjects 
+would need to be known in order to store these in a loopable array
+
